@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Human Resources Department</title>
+    <link rel="stylesheet" href="entry.css" />
+  </head>
+  <body>
+    <div id="mainBlock">
+      <h1>Human Resources Department</h1>
+      <div name="login">
+        <input
+          class="fields"
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Логин"
+        />
+      </div>
+      <div name="password">
+        <input
+          class="fields"
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Пароль"
+          required
+        />
+      </div>
+      <div name="button">
+        <button type="submit" id="login_btn" onclick="logIn()">Войти</button>
+      </div>
+      <div>
+        <a id="recover_src" href="/Autoris/Recover/recover.html"
+          >Забыли пароль?</a
+        >
+      </div>
+    </div>
+    <script src="entry.js"></script>
+  </body>
+</html>

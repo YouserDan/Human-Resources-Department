@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  height: 100vh; /* Чтобы контейнер был по центру даже на экранах с низким разрешением */
+  margin: 0;
+  background-color: #494949;
+}
+
+.fields {
+  width: 300px;
+  height: 42px;
+  border-radius: 30px;
+  align-items: start;
+  display: block;
+  margin-top: 30px;
+  max-width: 300px;
+  outline: none;
+  border: none;
+  background-color: #d9d9d9;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#table {
+  margin: 30px;
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+  width: 600px;
+  height: 500px;
+  background-color: #d9d9d9;
+}

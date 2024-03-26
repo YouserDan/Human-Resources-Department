@@ -1,0 +1,63 @@
+.fields {
+  width: 254px;
+  height: 42px;
+  border-radius: 30px;
+  display: block;
+  margin: 10px auto;
+  max-width: 300px;
+  outline: none;
+  border: none;
+  background-color: #d9d9d9;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 135px;
+  height: 42px;
+  border-radius: 30px;
+  display: block;
+  margin: 10px auto;
+  outline: none;
+  border: none;
+}
+
+a {
+  margin-top: 100px;
+}
+
+h1 {
+  font-weight: lighter;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: top;
+  width: fit-content;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Чтобы контейнер был по центру даже на экранах с низким разрешением */
+  margin: 0;
+  background-color: #494949;
+}
+
+#mainBlock {
+  width: fit-content;
+  text-align: center; /* Выравниваем содержимое по центру */
+  margin-top: -20vh;
+  transform: scale(1.5); /* Увеличиваем масштаб блока на 20% */
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+#recover_src {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: rgb(153, 153, 153);
+  text-decoration: dashed;
+}
